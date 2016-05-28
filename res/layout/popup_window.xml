@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/statics1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="3dp"
+        android:text="Hello My Window"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/statics2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Hello My Window"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/statics3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Hello My Window"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/statics4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="Hello My Window"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"> 
+                  
+    <Button android:id="@+id/one" 
+        	android:background="#20000000" 
+            android:layout_width="60dp" 
+            android:layout_height="60dp" 
+            android:layout_alignParentRight="true" 
+            android:layout_alignParentEnd="true" 
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:text=" " 
+            android:textSize="45sp"
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/two" 
+        	android:background="#20000000" 
+            android:layout_width="60dp" 
+            android:layout_height="60dp" 
+            android:layout_toLeftOf="@id/one" 
+            android:layout_toStartOf="@id/one" 
+            android:layout_alignTop="@id/one" 
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/three"
+        	android:background="#20000000"   
+            android:layout_width="60dp" 
+            android:layout_height="60dp" 
+            android:layout_toLeftOf="@id/two"
+            android:layout_toStartOf="@id/two"  
+            android:layout_alignTop="@id/two" 
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+                        
+    <Button android:id="@+id/four" 
+        	android:background="#20000000"  
+            android:layout_width="60dp" 
+            android:layout_height="60dp" 
+            android:layout_alignParentRight="true" 
+            android:layout_alignParentEnd="true" 
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/one"  
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/five" 
+        	android:background="#20000000"  
+            android:layout_width="60dp" 
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@id/four" 
+            android:layout_toStartOf="@id/four" 
+            android:layout_alignTop="@id/four" 
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/six" 
+        	android:background="#20000000"  
+            android:layout_width="60dp" 
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@id/five" 
+            android:layout_toStartOf="@id/five"
+            android:layout_alignTop="@id/five" 
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/seven" 
+        	android:background="#20000000" 
+            android:layout_width="60dp" 
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" 
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp" 
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/four" 
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+            
+    <Button android:id="@+id/eight" 
+        	android:background="#20000000"  
+            android:layout_width="60dp" 
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@id/seven"
+            android:layout_toStartOf="@id/seven" 
+            android:layout_alignTop="@id/seven" 
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" 
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/>  
+            
+    <Button android:id="@+id/nine" 
+        	android:background="#20000000" 
+            android:layout_width="60dp" 
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@id/eight" 
+            android:layout_toStartOf="@id/eight"
+            android:layout_alignTop="@id/eight" 
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp" 
+            android:text=" " 
+            android:textSize="45sp" 
+            android:padding="0dp"/> 
+
+     <Button
+         android:id="@+id/winNum"
+         android:background="#20000000" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:text="Show winning num" />
+
+     <Button
+         android:id="@+id/bestOf3"
+         android:background="#20000000" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/winNum"
+         android:layout_alignParentRight="true"
+         android:text="show best of 3" />
+
+     <Button
+         android:id="@+id/startNewGame"
+         android:background="#20000000" 
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:text="Start a New Game" />
+
+     <TextView
+         android:id="@+id/dialogue"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/bestOf3"
+         android:layout_alignParentLeft="true"
+         android:background="#0e000000"
+         android:gravity="center_horizontal"
+         android:text="Welcome to TicTacToe Game"
+         android:textSize="20sp" />
+      
+</RelativeLayout> 
